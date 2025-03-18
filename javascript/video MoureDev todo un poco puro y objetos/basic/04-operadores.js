@@ -57,3 +57,26 @@ console.log(undefined ===null)
 // NaN
 // El boolean false
 // cadenas de texto vacias
+
+//Operadores Logicos
+// and (&&)
+console.log(5 > 10 && 15 > 20)
+console.log(5 < 10 && 15 < 20)
+console.log(5 < 10 && 15 > 20)
+console.log(5 < 10 && 15 < 20 && 30 < 40)
+
+//or (||)
+console.log(5 > 10 || 15 > 20)
+console.log(5 < 10 || 15 < 20)
+console.log(5 < 10 || 15 > 20)
+console.log(5 < 10 || 15 < 20 || 30 < 40)
+console.log(5 < 10 && 15 < 20 || 30 < 40)
+
+// not (!)
+console.log(!(5 > 10 && 15 > 20))
+console.log(!(5 > 10 || 15 > 20))
+
+
+//Operadores ternarios 
+const isRaining= true
+isRaining ? console.log("Esta lloviendo") : console.log("No esta lloviendo ")
