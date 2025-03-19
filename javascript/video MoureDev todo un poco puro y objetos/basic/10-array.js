@@ -78,3 +78,7 @@ console.log(myArray)
 myArray= [1,2,3,4,5] 
 myArray.splice(1,3,"Nuevo elemento")  //Elimina posicion inicial y final (todo el intervalo) y se añade al final un objeto
 console.log(myArray)
+
+
+
+//test github
